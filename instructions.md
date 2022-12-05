@@ -8,7 +8,7 @@ editor_options:
 
 2.  RStudio \> New Project from git
 
-3.  create personal access token for that guithib repo
+3.  create personal access token for that github repo
 
 -   Profile \> Settings \> Developer Settings (bottom left)
 
@@ -26,11 +26,11 @@ editor_options:
 
 -   copy token into .git/config
 
-```
-    [remote "origin"]
+<!-- -->
 
-        url =
-        https://GITHUB_USERNAME:TOKEN\@github.com/REPOPATH/RProjectWithGithub.git
-```
+        [remote "origin"]
 
-4. use git panel in RStudio
+            url =
+            https://GITHUB_USERNAME:TOKEN\@github.com/REPOPATH/RProjectWithGithub.git
+
+4.  use git panel in RStudio
